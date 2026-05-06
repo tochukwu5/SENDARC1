@@ -17,11 +17,11 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-[#1e2530] bg-[#0D1117]/95 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-1">
-          <span className="font-['Space_Grotesk'] text-xl font-bold text-white">Send</span>
-          <span className="font-['Space_Grotesk'] text-xl font-bold text-[#00D4FF]">Arc</span>
-        </Link>
+       <Link to="/" className="flex items-center gap-2">
+  <img src="/logo.jpg" alt="SendArc" className="h-9 w-9 object-contain mb-2" />
+  <span className="font-['Space_Grotesk'] text-xl font-bold text-white">Send</span>
+  <span className="font-['Space_Grotesk'] text-xl font-bold text-[#00D4FF]">Arc</span>
+</Link>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">

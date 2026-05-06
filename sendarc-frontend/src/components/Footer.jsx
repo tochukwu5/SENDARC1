@@ -8,6 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-1 mb-4">
+              <img src="/logo.jpg" alt="SendArc" className="h-9 w-9 rounded-lg object-contain mb-2" />
               <span className="font-['Space_Grotesk'] text-xl font-bold text-white">Send</span>
               <span className="font-['Space_Grotesk'] text-xl font-bold text-[#00D4FF]">Arc</span>
             </div>
@@ -56,7 +57,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-[#1e2530] pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-[#556]">© 2026 SendArc. Built by David Emeremgini · Enugu, Nigeria 🇳🇬</p>
+          <p className="text-xs text-[#556]">© 2026 SendArc. Built by David</p>
           <div className="flex items-center gap-4">
             <span className="text-xs text-[#556]">$0.003 avg fee · &lt;1s settlement · 100% USDC backed</span>
           </div>
