@@ -30,6 +30,7 @@ function Sidebar({ active }) {
     <aside className="w-60 flex-shrink-0 bg-[#0D1117] border-r border-[#1e2530] min-h-screen flex flex-col">
       <div className="p-5 border-b border-[#1e2530]">
         <Link to="/" className="flex items-center gap-1">
+        <img src="/logo.jpg" alt="SendArc" className="h-9 w-9 rounded-lg object-contain mb-2" />
           <span className="font-['Space_Grotesk'] text-lg font-bold text-white">Send</span>
           <span className="font-['Space_Grotesk'] text-lg font-bold text-[#00D4FF]">Arc</span>
         </Link>
